@@ -28,6 +28,7 @@
 		4FC1112B2D4ED8E800A89189 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		4FC1112D2D4EE52E00A89189 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4FC111302D4EE5D600A89189 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
+		4FC111322D4FC69D00A89189 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		4FFDEF3E2D4C5F2E00608E7C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4FFDEF412D4C60D100608E7C /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
 		A9E7FD7F2CD93BFE001A762A /* NearbyApp NLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NearbyApp NLW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +123,7 @@
 				A9E7FD962CD93C17001A762A /* Sources */,
 				A9E7FD822CD93BFE001A762A /* AppDelegate.swift */,
 				A9E7FD842CD93BFE001A762A /* SceneDelegate.swift */,
+				4FC111322D4FC69D00A89189 /* README.md */,
 			);
 			path = "NearbyApp NLW";
 			sourceTree = "<group>";
