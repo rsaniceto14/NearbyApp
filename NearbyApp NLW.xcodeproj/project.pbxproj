@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F590BC12D500DDB008341D5 /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */; };
+		4F590BC32D501434008341D5 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590BC22D501434008341D5 /* Typography.swift */; };
 		4FC111202D4C6DB000A89189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC1111F2D4C6DB000A89189 /* Assets.xcassets */; };
 		4FC111242D4EB91F00A89189 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111232D4EB91F00A89189 /* SplashViewController.swift */; };
 		4FC111262D4EB98D00A89189 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111252D4EB98D00A89189 /* SplashView.swift */; };
@@ -21,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
+		4F590BC22D501434008341D5 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		4FC1111F2D4C6DB000A89189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Development/NLW - Swift/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 		4FC111232D4EB91F00A89189 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4FC111252D4EB98D00A89189 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -62,6 +66,7 @@
 			children = (
 				4FC111232D4EB91F00A89189 /* SplashViewController.swift */,
 				4FC111252D4EB98D00A89189 /* SplashView.swift */,
+				4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -160,6 +165,7 @@
 			isa = PBXGroup;
 			children = (
 				4FFDEF3E2D4C5F2E00608E7C /* Colors.swift */,
+				4F590BC22D501434008341D5 /* Typography.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -242,6 +248,8 @@
 				A9E7FD852CD93BFE001A762A /* SceneDelegate.swift in Sources */,
 				4FC111292D4ED0D000A89189 /* TipsView.swift in Sources */,
 				4FC111242D4EB91F00A89189 /* SplashViewController.swift in Sources */,
+				4F590BC12D500DDB008341D5 /* SplashFlowDelegate.swift in Sources */,
+				4F590BC32D501434008341D5 /* Typography.swift in Sources */,
 				4FC111262D4EB98D00A89189 /* SplashView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
