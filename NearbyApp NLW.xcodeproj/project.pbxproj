@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F3477652D77C9D200E6867F /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3477642D77C9D200E6867F /* PlaceTableViewCell.swift */; };
 		4F590BC12D500DDB008341D5 /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */; };
 		4F590BC32D501434008341D5 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590BC22D501434008341D5 /* Typography.swift */; };
 		4F860E1A2D77AB4500646E61 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F860E192D77AB4500646E61 /* HomeView.swift */; };
 		4F860E1C2D77AB5E00646E61 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F860E1B2D77AB5E00646E61 /* HomeViewController.swift */; };
-		4F860E1F2D77ABD500646E61 /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F860E1E2D77ABD500646E61 /* PlaceTableViewCell.swift */; };
 		4FC111202D4C6DB000A89189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC1111F2D4C6DB000A89189 /* Assets.xcassets */; };
 		4FC111242D4EB91F00A89189 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111232D4EB91F00A89189 /* SplashViewController.swift */; };
 		4FC111262D4EB98D00A89189 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111252D4EB98D00A89189 /* SplashView.swift */; };
@@ -26,11 +26,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F3477642D77C9D200E6867F /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
 		4F590BC22D501434008341D5 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
 		4F860E192D77AB4500646E61 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4F860E1B2D77AB5E00646E61 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		4F860E1E2D77ABD500646E61 /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		4FC1111F2D4C6DB000A89189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Development/NLW - Swift/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 		4FC111232D4EB91F00A89189 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4FC111252D4EB98D00A89189 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
@@ -71,7 +71,7 @@
 		4F860E1D2D77ABB800646E61 /* TableViewCell */ = {
 			isa = PBXGroup;
 			children = (
-				4F860E1E2D77ABD500646E61 /* PlaceTableViewCell.swift */,
+				4F3477642D77C9D200E6867F /* PlaceTableViewCell.swift */,
 			);
 			path = TableViewCell;
 			sourceTree = "<group>";
@@ -264,7 +264,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F860E1F2D77ABD500646E61 /* PlaceTableViewCell.swift in Sources */,
 				4FC111312D4EE5D600A89189 /* UIViewControllerExt.swift in Sources */,
 				4FC1112E2D4EE52E00A89189 /* WelcomeViewController.swift in Sources */,
 				4F860E1A2D77AB4500646E61 /* HomeView.swift in Sources */,
@@ -279,6 +278,7 @@
 				4F590BC12D500DDB008341D5 /* SplashFlowDelegate.swift in Sources */,
 				4F590BC32D501434008341D5 /* Typography.swift in Sources */,
 				4FC111262D4EB98D00A89189 /* SplashView.swift in Sources */,
+				4F3477652D77C9D200E6867F /* PlaceTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
