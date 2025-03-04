@@ -48,7 +48,7 @@ class WelcomeView:UIView {
     
     private let tipsStackView: UIStackView = {
         let stackView = UIStackView()
-        stackView.spacing = 16
+        stackView.spacing = 24
         stackView.axis = .vertical
         stackView.translatesAutoresizingMaskIntoConstraints = false
         
