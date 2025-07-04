@@ -1,4 +1,4 @@
-//
+      //
 //  WelcomeView.swift
 //  NearbyApp NLW
 //
@@ -99,7 +99,7 @@ class WelcomeView:UIView {
             
             startButton.bottomAnchor.constraint(equalTo: bottomAnchor, constant: -36),
             startButton.leadingAnchor.constraint(equalTo: leadingAnchor, constant: 24),
-            startButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24),
+            startButton.trailingAnchor.constraint(equalTo: trailingAnchor, constant: -24), // baixo e direita constante negativa
             startButton.heightAnchor.constraint(equalToConstant: 56)
         ])
     }

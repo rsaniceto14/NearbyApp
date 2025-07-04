@@ -10,15 +10,16 @@
 		4F3477652D77C9D200E6867F /* PlaceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F3477642D77C9D200E6867F /* PlaceTableViewCell.swift */; };
 		4F590BC12D500DDB008341D5 /* SplashFlowDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */; };
 		4F590BC32D501434008341D5 /* Typography.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F590BC22D501434008341D5 /* Typography.swift */; };
+		4F606E102E175E20007D51C3 /* PlaceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F606E0F2E175E20007D51C3 /* PlaceModel.swift */; };
 		4F860E1A2D77AB4500646E61 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F860E192D77AB4500646E61 /* HomeView.swift */; };
 		4F860E1C2D77AB5E00646E61 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F860E1B2D77AB5E00646E61 /* HomeViewController.swift */; };
-		4FC111202D4C6DB000A89189 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FC1111F2D4C6DB000A89189 /* Assets.xcassets */; };
 		4FC111242D4EB91F00A89189 /* SplashViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111232D4EB91F00A89189 /* SplashViewController.swift */; };
 		4FC111262D4EB98D00A89189 /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111252D4EB98D00A89189 /* SplashView.swift */; };
 		4FC111292D4ED0D000A89189 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111282D4ED0D000A89189 /* TipsView.swift */; };
 		4FC1112C2D4ED8E800A89189 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC1112B2D4ED8E800A89189 /* WelcomeView.swift */; };
 		4FC1112E2D4EE52E00A89189 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC1112D2D4EE52E00A89189 /* WelcomeViewController.swift */; };
 		4FC111312D4EE5D600A89189 /* UIViewControllerExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FC111302D4EE5D600A89189 /* UIViewControllerExt.swift */; };
+		4FE5EF8E2D79C5BA00E60FCE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FE5EF8D2D79C5B900E60FCE /* Assets.xcassets */; };
 		4FFDEF3F2D4C5F2E00608E7C /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEF3E2D4C5F2E00608E7C /* Colors.swift */; };
 		4FFDEF422D4C60D100608E7C /* NearbyFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FFDEF412D4C60D100608E7C /* NearbyFlowController.swift */; };
 		A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E7FD822CD93BFE001A762A /* AppDelegate.swift */; };
@@ -29,9 +30,9 @@
 		4F3477642D77C9D200E6867F /* PlaceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceTableViewCell.swift; sourceTree = "<group>"; };
 		4F590BC02D500DDB008341D5 /* SplashFlowDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashFlowDelegate.swift; sourceTree = "<group>"; };
 		4F590BC22D501434008341D5 /* Typography.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Typography.swift; sourceTree = "<group>"; };
+		4F606E0F2E175E20007D51C3 /* PlaceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaceModel.swift; sourceTree = "<group>"; };
 		4F860E192D77AB4500646E61 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		4F860E1B2D77AB5E00646E61 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
-		4FC1111F2D4C6DB000A89189 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "../../../../Development/NLW - Swift/Resources/Assets.xcassets"; sourceTree = "<group>"; };
 		4FC111232D4EB91F00A89189 /* SplashViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashViewController.swift; sourceTree = "<group>"; };
 		4FC111252D4EB98D00A89189 /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 		4FC111282D4ED0D000A89189 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
@@ -39,6 +40,7 @@
 		4FC1112D2D4EE52E00A89189 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		4FC111302D4EE5D600A89189 /* UIViewControllerExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewControllerExt.swift; sourceTree = "<group>"; };
 		4FC111322D4FC69D00A89189 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		4FE5EF8D2D79C5B900E60FCE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4FFDEF3E2D4C5F2E00608E7C /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
 		4FFDEF412D4C60D100608E7C /* NearbyFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyFlowController.swift; sourceTree = "<group>"; };
 		A9E7FD7F2CD93BFE001A762A /* NearbyApp NLW.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NearbyApp NLW.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -58,6 +60,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4F606E0E2E175C83007D51C3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4F606E0F2E175E20007D51C3 /* PlaceModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		4F860E182D77AB0200646E61 /* HomeView */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,14 +180,16 @@
 		A9E7FD972CD93C1C001A762A /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				4FC1111F2D4C6DB000A89189 /* Assets.xcassets */,
+				4FE5EF8D2D79C5B900E60FCE /* Assets.xcassets */,
 			);
-			path = Resources;
+			name = Resources;
+			path = "../../../../Development/NLW - Swift/NearbyApp NLW/NearbyApp NLW/Resources";
 			sourceTree = "<group>";
 		};
 		A9E7FD982CD93C7F001A762A /* Features */ = {
 			isa = PBXGroup;
 			children = (
+				4F606E0E2E175C83007D51C3 /* Models */,
 				4FC1112F2D4EE5B700A89189 /* Extensions */,
 				4FC111272D4ED0AB00A89189 /* Components */,
 				4FC111212D4EB8DD00A89189 /* Scenes */,
@@ -253,7 +265,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC111202D4C6DB000A89189 /* Assets.xcassets in Resources */,
+				4FE5EF8E2D79C5BA00E60FCE /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FC111312D4EE5D600A89189 /* UIViewControllerExt.swift in Sources */,
+				4F606E102E175E20007D51C3 /* PlaceModel.swift in Sources */,
 				4FC1112E2D4EE52E00A89189 /* WelcomeViewController.swift in Sources */,
 				4F860E1A2D77AB4500646E61 /* HomeView.swift in Sources */,
 				A9E7FD832CD93BFE001A762A /* AppDelegate.swift in Sources */,
@@ -409,6 +422,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ADG528D8YM;
@@ -423,7 +437,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abidu.NearbyApp-NLW";
+				PRODUCT_BUNDLE_IDENTIFIER = "NearbyApp-NLW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -436,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = ADG528D8YM;
@@ -450,7 +465,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "Abidu.NearbyApp-NLW";
+				PRODUCT_BUNDLE_IDENTIFIER = "NearbyApp-NLW";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;

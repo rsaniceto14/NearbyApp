@@ -24,7 +24,7 @@ class WelcomeViewController: UIViewController {
     }
     
     
-    override func viewDidLoad() {
+    override func viewDidLoad() { // carrega os metodos quando a tela e carregada
         super.viewDidLoad()
         
         setup()
@@ -32,6 +32,7 @@ class WelcomeViewController: UIViewController {
     
     private func setup(){
         self.view.addSubview(contentView)
+        view.backgroundColor = Colors.gray100
         setupConstraints()
     }
     
